@@ -20,11 +20,11 @@ $('a.mycustomclass').blockAction ();
     
 ## Options
 
-Il n'existe pas d'options pour cette bibliothèque. Cependant, le premier paramètre correspond à une fonction de rappel.
+Il n'existe pas d'option pour cette bibliothèque. Cependant, le premier paramètre correspond à une fonction de rappel.
 Lorsqu'elle est définie, elle prend le pas et les traitements doivent être définis par cette dernière.
 
 ```javascript
-$('a.blocaction').blockAction (function (bloc, url) {
+$('a.mycustomclass').blockAction (function (bloc, url) {
     // Code ...
 });
 ```
